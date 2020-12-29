@@ -6,7 +6,6 @@ export class Scene extends THREE.Scene {
     constructor(){
 
         super();
-        this.scene = 0;
 
         //カメラ
         this._persCamera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 10, 500);

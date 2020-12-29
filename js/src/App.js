@@ -5,7 +5,6 @@ export class App{
       this._update = this._update.bind(this);
       this._onResize = this._onResize.bind(this);
       this.frame = 0;
-      this.sceneNUM = 0;
 
       // シーン
       this._scene = sceneInstance;
